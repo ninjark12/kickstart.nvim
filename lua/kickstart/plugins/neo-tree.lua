@@ -1,6 +1,8 @@
 -- Neo-tree is a Neovim plugin to browse the file system
 -- https://github.com/nvim-neo-tree/neo-tree.nvim
 
+vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal float<CR>')
+
 ---@module 'lazy'
 ---@type LazySpec
 return {
